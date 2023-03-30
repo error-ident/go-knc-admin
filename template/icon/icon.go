@@ -1,6 +1,7 @@
 package icon
 
 import (
+	"github.com/error-ident/knc-html"
 	"html/template"
 )
 

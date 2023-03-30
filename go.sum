@@ -177,6 +177,8 @@ github.com/envoyproxy/go-control-plane v0.9.7/go.mod h1:cwu0lG7PUMfa9snN8LXBig5y
 github.com/envoyproxy/go-control-plane v0.9.9-0.20201210154907-fd9021fe5dad/go.mod h1:cXg6YxExXjJnVBQHBLXeUAgxn2UodCpnH306RInaBQk=
 github.com/envoyproxy/go-control-plane v0.9.9-0.20210217033140-668b12f5399d/go.mod h1:cXg6YxExXjJnVBQHBLXeUAgxn2UodCpnH306RInaBQk=
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
+github.com/error-ident/knc-html v0.0.0-20230330151958-886a33737c28 h1:iji7Wq76ov6c7egwtpB+5fIMJaT1eDq4cf0WujeUl98=
+github.com/error-ident/knc-html v0.0.0-20230330151958-886a33737c28/go.mod h1:wn+MxfneWWw8Pqwg1WBm6o9XCoEJIsW8Jbh7Yy8jjSg=
 github.com/error-ident/knc-themes v0.0.0-20230330160300-d8c4811db9fa h1:rEn57967nJ8709p+f4H4bJTAJUQEr2cQVgyxNRsjWTI=
 github.com/error-ident/knc-themes v0.0.0-20230330160300-d8c4811db9fa/go.mod h1:KLV4eqtmyOH597xYrNrWND9j0rwWxm/uNo1H8G94uko=
 github.com/fasthttp-contrib/websocket v0.0.0-20160511215533-1f3b11f56072 h1:DddqAaWDpywytcG8w/qoQ5sAN8X12d3Z3koB0C3Rxsc=
