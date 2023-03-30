@@ -13,7 +13,7 @@ require (
 	github.com/denisenkom/go-mssqldb v0.12.3
 	github.com/error-ident/knc-themes v0.0.0-20230330160300-d8c4811db9fa
 	github.com/gavv/httpexpect v2.0.0+incompatible
-	github.com/gin-gonic/gin v1.9.0
+	github.com/gin-gonic/gin v1.4.0
 	github.com/go-chi/chi v1.5.4
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/gobuffalo/buffalo v1.1.0
@@ -48,9 +48,7 @@ require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/bytedance/sonic v1.8.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/clbanning/mxj v1.8.5-0.20200714211355-ff02cfb8ea28 // indirect
 	github.com/clbanning/mxj/v2 v2.5.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -65,9 +63,6 @@ require (
 	github.com/go-http-utils/negotiator v1.0.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/go-playground/locales v0.14.1 // indirect
-	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.11.2 // indirect
 	github.com/gobuffalo/envy v1.10.2 // indirect
 	github.com/gobuffalo/events v1.4.3 // indirect
 	github.com/gobuffalo/flect v1.0.0 // indirect
@@ -105,8 +100,7 @@ require (
 	github.com/karrick/godirwalk v1.16.1 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/klauspost/compress v1.16.3 // indirect
-	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
-	github.com/leodido/go-urn v1.2.1 // indirect
+	github.com/kr/pretty v0.3.0 // indirect
 	github.com/markbates/errx v1.1.0 // indirect
 	github.com/markbates/oncer v1.0.0 // indirect
 	github.com/markbates/safe v1.0.1 // indirect
@@ -123,7 +117,6 @@ require (
 	github.com/monoculum/formam v3.5.5+incompatible // indirect
 	github.com/moul/http2curl v1.0.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -146,8 +139,7 @@ require (
 	github.com/tdewolff/parse/v2 v2.6.5 // indirect
 	github.com/teambition/trie-mux v1.5.2 // indirect
 	github.com/tinylib/msgp v1.1.8 // indirect
-	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
-	github.com/ugorji/go/codec v1.2.9 // indirect
+	github.com/ugorji/go v1.1.4 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
@@ -162,11 +154,12 @@ require (
 	go.opentelemetry.io/otel/trace v1.8.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
-	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/term v0.6.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
