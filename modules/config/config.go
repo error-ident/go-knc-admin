@@ -7,6 +7,8 @@ package config
 import (
 	"encoding/json"
 	"fmt"
+	"gopkg.in/ini.v1"
+	"gopkg.in/yaml.v2"
 	"html/template"
 	"io/ioutil"
 	"path/filepath"
