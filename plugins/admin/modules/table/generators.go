@@ -11,7 +11,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/html"
 	"github.com/error-ident/go-knc-admin/context"
 	"github.com/error-ident/go-knc-admin/modules/collection"
 	"github.com/error-ident/go-knc-admin/modules/config"

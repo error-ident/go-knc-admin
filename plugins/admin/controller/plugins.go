@@ -17,7 +17,6 @@ import (
 
 	"github.com/error-ident/go-knc-admin/modules/config"
 
-	"github.com/GoAdminGroup/html"
 	"github.com/error-ident/go-knc-admin/context"
 	"github.com/error-ident/go-knc-admin/modules/auth"
 	"github.com/error-ident/go-knc-admin/modules/language"

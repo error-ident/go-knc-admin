@@ -3,17 +3,17 @@ package datamodel
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
-	"github.com/GoAdminGroup/themes/adminlte/components/description"
-	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
-	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
-	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
-	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
 	"github.com/error-ident/go-knc-admin/context"
 	tmpl "github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"
 	"github.com/error-ident/go-knc-admin/template/icon"
 	"github.com/error-ident/go-knc-admin/template/types"
+	"github.com/error-ident/knc-themes/adminlte/components/chart_legend"
+	"github.com/error-ident/knc-themes/adminlte/components/description"
+	"github.com/error-ident/knc-themes/adminlte/components/infobox"
+	"github.com/error-ident/knc-themes/adminlte/components/productlist"
+	"github.com/error-ident/knc-themes/adminlte/components/progress_group"
+	"github.com/error-ident/knc-themes/adminlte/components/smallbox"
 )
 
 // GetContent return the content of index page.

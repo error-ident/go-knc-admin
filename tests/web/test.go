@@ -7,9 +7,9 @@ import (
 
 	"github.com/mgutz/ansi"
 
-	_ "github.com/GoAdminGroup/themes/adminlte"
 	_ "github.com/error-ident/go-knc-admin/adapter/gin"
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"
+	_ "github.com/error-ident/knc-themes/adminlte"
 
 	"github.com/sclevine/agouti"
 )

@@ -3,7 +3,6 @@ package display
 import (
 	"strings"
 
-	"github.com/GoAdminGroup/html"
 	"github.com/error-ident/go-knc-admin/template/icon"
 	"github.com/error-ident/go-knc-admin/template/types"
 )

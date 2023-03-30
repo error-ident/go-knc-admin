@@ -10,7 +10,6 @@ import (
 	_ "github.com/error-ident/go-knc-admin/adapter/buffalo"
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/examples/datamodel"
 	"github.com/error-ident/go-knc-admin/modules/config"
@@ -18,6 +17,7 @@ import (
 	"github.com/error-ident/go-knc-admin/plugins/example"
 	"github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"
+	"github.com/error-ident/knc-themes/adminlte"
 	"github.com/gobuffalo/buffalo"
 )
 

@@ -13,11 +13,11 @@ import (
 	"github.com/error-ident/go-knc-admin/examples/datamodel"
 	"github.com/error-ident/go-knc-admin/modules/config"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/error-ident/go-knc-admin/modules/language"
 	"github.com/error-ident/go-knc-admin/plugins/example"
 	"github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"
+	"github.com/error-ident/knc-themes/adminlte"
 	"github.com/gogf/gf/v2/frame/g"
 )
 

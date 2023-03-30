@@ -5,14 +5,14 @@ go 1.19
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/AlecAivazis/survey/v2 v2.3.6
-	github.com/GoAdminGroup/html v0.0.1
-	github.com/GoAdminGroup/themes v0.0.43
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e
 	github.com/agiledragon/gomonkey v2.0.2+incompatible
 	github.com/astaxie/beego v1.12.3
 	github.com/beego/beego/v2 v2.0.7
 	github.com/buaazp/fasthttprouter v0.1.1
 	github.com/denisenkom/go-mssqldb v0.12.3
+	github.com/error-ident/knc-html v0.0.0-20230330151958-886a33737c28
+	github.com/error-ident/knc-themes v0.0.0-20230330160300-d8c4811db9fa
 	github.com/gavv/httpexpect v2.0.0+incompatible
 	github.com/gin-gonic/gin v1.9.0
 	github.com/go-chi/chi v1.5.4
@@ -45,7 +45,6 @@ require (
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
-	github.com/GoAdminGroup/go-admin v1.2.24 // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect

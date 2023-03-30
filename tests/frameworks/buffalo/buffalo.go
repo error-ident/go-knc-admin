@@ -2,11 +2,11 @@ package buffalo
 
 import (
 	// add buffalo adapter
-	"github.com/GoAdminGroup/themes/adminlte"
 	_ "github.com/error-ident/go-knc-admin/adapter/buffalo"
 	"github.com/error-ident/go-knc-admin/modules/config"
 	"github.com/error-ident/go-knc-admin/modules/language"
 	"github.com/error-ident/go-knc-admin/plugins/admin/modules/table"
+	"github.com/error-ident/knc-themes/adminlte"
 
 	// add mysql driver
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"
@@ -17,7 +17,7 @@ import (
 	// add mssql driver
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/error-ident/knc-themes/adminlte"
 
 	"github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"

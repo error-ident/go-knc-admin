@@ -6,12 +6,11 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/themes/sword"
 	_ "github.com/error-ident/go-knc-admin/adapter/gear"
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"
+	_ "github.com/error-ident/knc-themes/sword"
 	"github.com/teambition/gear"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/examples/datamodel"
 	"github.com/error-ident/go-knc-admin/modules/config"
@@ -19,6 +18,7 @@ import (
 	"github.com/error-ident/go-knc-admin/plugins/example"
 	"github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"
+	"github.com/error-ident/knc-themes/adminlte"
 )
 
 func main() {

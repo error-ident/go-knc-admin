@@ -17,7 +17,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/gin"                    // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}" // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                       // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                       // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -97,7 +97,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/beego"                   // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -158,7 +158,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/buffalo"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -224,7 +224,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/chi"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -307,7 +307,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/echo"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -365,7 +365,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/fasthttp"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -426,7 +426,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/gf"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -486,7 +486,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/gorilla"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -546,7 +546,7 @@ import (
 
 	_ "github.com/error-ident/go-knc-admin/adapter/iris"                 // web framework adapter
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/error-ident/knc-themes/{{.Theme}}"                        // ui theme
 
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/template"
@@ -609,10 +609,10 @@ import (
 	template2 "github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"
 	"github.com/error-ident/go-knc-admin/template/types"
-	"github.com/GoAdminGroup/themes/sword/components/card"
-	"github.com/GoAdminGroup/themes/sword/components/chart_legend"
-	"github.com/GoAdminGroup/themes/sword/components/description"
-	"github.com/GoAdminGroup/themes/sword/components/progress_group"
+	"github.com/error-ident/knc-themes/sword/components/card"
+	"github.com/error-ident/knc-themes/sword/components/chart_legend"
+	"github.com/error-ident/knc-themes/sword/components/description"
+	"github.com/error-ident/knc-themes/sword/components/progress_group"
 	"html/template"
 )
 
@@ -882,12 +882,12 @@ import (
 	"github.com/error-ident/go-knc-admin/template/chartjs"
 	"github.com/error-ident/go-knc-admin/template/icon"
 	"github.com/error-ident/go-knc-admin/template/types"
-	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
-	"github.com/GoAdminGroup/themes/adminlte/components/description"
-	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
-	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
-	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
-	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
+	"github.com/error-ident/knc-themes/adminlte/components/chart_legend"
+	"github.com/error-ident/knc-themes/adminlte/components/description"
+	"github.com/error-ident/knc-themes/adminlte/components/infobox"
+	"github.com/error-ident/knc-themes/adminlte/components/productlist"
+	"github.com/error-ident/knc-themes/adminlte/components/progress_group"
+	"github.com/error-ident/knc-themes/adminlte/components/smallbox"
 	"html/template"
 )
 

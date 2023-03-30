@@ -16,7 +16,7 @@ import (
 	// add mssql driver
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/error-ident/knc-themes/adminlte"
 
 	"github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"

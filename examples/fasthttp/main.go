@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/themes/adminlte"
 	_ "github.com/error-ident/go-knc-admin/adapter/fasthttp"
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"
+	_ "github.com/error-ident/knc-themes/adminlte"
 
 	"github.com/buaazp/fasthttprouter"
 	"github.com/error-ident/go-knc-admin/engine"

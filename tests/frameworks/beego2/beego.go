@@ -15,7 +15,6 @@ import (
 	// add mssql driver
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mssql"
 
-	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/beego/beego/v2/server/web"
 	"github.com/error-ident/go-knc-admin/engine"
 	"github.com/error-ident/go-knc-admin/modules/config"
@@ -26,6 +25,7 @@ import (
 	"github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/chartjs"
 	"github.com/error-ident/go-knc-admin/tests/tables"
+	"github.com/error-ident/knc-themes/adminlte"
 )
 
 func internalHandler() http.Handler {
