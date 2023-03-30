@@ -1,6 +1,7 @@
 package display
 
 import (
+	"github.com/error-ident/knc-html"
 	"strings"
 
 	"github.com/error-ident/go-knc-admin/template/icon"

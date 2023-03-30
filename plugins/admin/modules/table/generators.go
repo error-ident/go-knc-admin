@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
+	"github.com/error-ident/knc-html"
 	tmpl "html/template"
 	"net/url"
 	"regexp"
