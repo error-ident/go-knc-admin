@@ -12,7 +12,7 @@ require (
 	github.com/buaazp/fasthttprouter v0.1.1
 	github.com/denisenkom/go-mssqldb v0.12.3
 	github.com/error-ident/knc-html v0.0.0-20230330151958-886a33737c28
-	github.com/error-ident/knc-themes v0.0.0-20230330160300-d8c4811db9fa
+	github.com/error-ident/knc-themes v0.0.0-20230331130117-98b6e3eae36e
 	github.com/gavv/httpexpect v2.0.0+incompatible
 	github.com/gin-gonic/gin v1.4.0
 	github.com/go-chi/chi v1.5.4
