@@ -106,6 +106,8 @@ func buildProject(cfgFile string) {
 			p.Language = language.JP
 		case getWord("tc"):
 			p.Language = language.TC
+		case getWord("ru"):
+			p.Language = language.RU
 		}
 	}
 	if p.Port == "" {
