@@ -6,6 +6,7 @@ import (
 	"github.com/error-ident/go-knc-admin/modules/config"
 	"github.com/error-ident/go-knc-admin/modules/language"
 	"github.com/error-ident/go-knc-admin/plugins/admin/modules/table"
+	"github.com/labstack/echo/v4"
 
 	// add mysql driver
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"

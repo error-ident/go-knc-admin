@@ -3,6 +3,8 @@ package gofiber
 import (
 	// add fasthttp adapter
 	ada "github.com/error-ident/go-knc-admin/adapter/gofiber"
+	"github.com/gofiber/fiber/v2"
+
 	// add mysql driver
 	_ "github.com/error-ident/go-knc-admin/modules/db/drivers/mysql"
 	// add postgresql driver

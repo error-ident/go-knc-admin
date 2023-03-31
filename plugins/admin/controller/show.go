@@ -29,6 +29,7 @@ import (
 	"github.com/error-ident/go-knc-admin/template/icon"
 	"github.com/error-ident/go-knc-admin/template/types"
 	"github.com/error-ident/go-knc-admin/template/types/action"
+	"github.com/error-ident/knc-html"
 )
 
 // ShowInfo show info page.

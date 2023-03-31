@@ -19,6 +19,7 @@ import (
 	"github.com/error-ident/go-knc-admin/plugins/admin/models"
 	"github.com/error-ident/go-knc-admin/plugins/admin/modules/constant"
 	"github.com/error-ident/go-knc-admin/template/types"
+	"github.com/labstack/echo/v4"
 )
 
 // Echo structure value is an Echo GoAdmin adapter.

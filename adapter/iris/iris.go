@@ -19,6 +19,7 @@ import (
 	"github.com/error-ident/go-knc-admin/plugins/admin/models"
 	"github.com/error-ident/go-knc-admin/plugins/admin/modules/constant"
 	"github.com/error-ident/go-knc-admin/template/types"
+	"github.com/kataras/iris/v12"
 )
 
 // Iris structure value is an Iris GoAdmin adapter.

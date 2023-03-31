@@ -3,6 +3,7 @@ package controller
 import (
 	"bytes"
 	"fmt"
+	"github.com/error-ident/go-knc-admin/template/types/form"
 	"html/template"
 	"io/ioutil"
 	"net/http"
@@ -26,7 +27,7 @@ import (
 	"github.com/error-ident/go-knc-admin/plugins/admin/modules/guard"
 	template2 "github.com/error-ident/go-knc-admin/template"
 	"github.com/error-ident/go-knc-admin/template/types"
-	"github.com/error-ident/go-knc-admin/template/types/form"
+	"github.com/error-ident/knc-html"
 	"github.com/gin-gonic/gin"
 )
 
